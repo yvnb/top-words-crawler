@@ -1,4 +1,19 @@
-# top-words-crawler architecture
+Steps to Run Top Words Java Application
+---------------------------------------------------------------------
+1. mvn package
+
+   This Command creates the jar file in the target folder of the project
+
+2. docker image build -t top-words-jar:latest .
+
+   This Command creates docker image based on the Dockerfile present in the project root directory
+   
+3. docker run top-words-jar:latest
+
+   This Command runs the project image created from the previous step
+
+  
+# Evolved/Scalable Top-Words-Crawler Architecture
 
 The top words crawler architecture consists of the following components
 
